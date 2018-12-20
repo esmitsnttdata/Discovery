@@ -614,7 +614,7 @@ namespace Steeltoe.Discovery.Eureka
                 }
                 else
                 {
-                    _logger?.LogInformation("Registartion fail. HeartBeat not start");
+                    _logger?.LogInformation("Registration failed. HeartBeat did not start.");
                 }
             }
 
